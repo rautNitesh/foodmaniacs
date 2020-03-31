@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+   
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    background: 
+    linear-gradient(to bottom right,rgba(63, 164, 223,0.7), rgb(42, 214, 157,0.7)),
+    url('https://pixel.parall.ax/parallax-agency/image/upload/w_1120,h_500,c_fill/expose/cauldron-2018/site-images/20150803113415_shutterstock_2283204462.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    padding: 1.3em 0;
+    width: 80%;
+    margin: auto;
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+}
+.scrollEffect{
+    background-color: white;
+    box-shadow: -.1em .1em .3em #000000;
+}
+nav ul li{
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+nav ul li:hover{
+   color:black !important;
+}
+.hero-text{
+    text-align: center;
+    padding-top: 4.5em;
+    padding-bottom: .5em;    
+}
+.hero-caption{
+    margin:auto;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    text-justify: inter-word;
+    font-weight: 300;
+    font-size: 1.0em;
+    padding-bottom: 1.5em;
+}
+nav .black ul li:hover{
+    color: rgb(0, 247, 255) !important;
+ }
+.black{
+    background-color: rgb(3, 167, 117);
+    transition: all 0.9s ease;
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 1em 0;
+}
+.title{
+    justify-content: center;
+    text-align: center;
+    text-justify: inter-word;
+    font-weight: 300;
+    font-size: 2.0em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 1em 0;
+}
+.border{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 10%;
+    background-color: red;
+    height: 10px;
+    margin:auto;
+}
+
+.active{
+    color: black;
+}
+.card-holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(219px,1fr));
+    grid-gap:1em;
+}
+.card{
+    border: .01em grey solid;
+    cursor: pointer;
+    color: rgb(56, 37, 37) !important;
+    display: none;
+}
+.show{
+    display: block;
+}
+.card-picture{
+    object-fit: cover;
+    overflow: hidden;
+    margin: .3em .3em;
+    max-height: 15em;
+}
+.card-heading{
+    color: black;
+    text-align: center;
+}
+.card-description{
+    color: black;
+    padding: .5em;
+    font-size: .7em;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: -.1em .1em .7em #000000;
+    transition: all 0.4s ease;
+   
+}
+.text-section{
+    width: 100%;
+}
+.text-title{
+    color: black;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.text-title .border{
+    width: 10%;
+    background-color: green;
+    margin: 0;
+    margin-bottom: 1em;
+}
+.text-description{
+    color: black;
+    border-right: 0.01em solid grey;
+    padding-right: .5em;
+}
+
+.about-section{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(219px,1fr));
+   grid-gap:1em;
+}
+.card-about{
+    border: .01em grey solid;
+    cursor: pointer;
+    color: rgb(56, 37, 37) !important;
+    margin-top: 2em;
+    color: black;
+    height: 5em;
+}
+.card-about:hover{
+    box-shadow: .1em .1em 0.7em #000000;
+}
+.card-about h3{
+    text-align: center;
+    padding: 1.3em 0;
+    color: black;
+}
+.contact-form{
+    color: black;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.form{
+    width: 100%;
+    height: 2.5em;
+    display: block;
+}
+.form-area{
+    width: 100%;
+    height: 10em;
+    display: block;
+}
+.button-submit{
+    margin-top: .5em;
+    font-family: 'Montserrat', sans-serif;
+    width: 25%;
+    padding: 5px;
+    height: 2.5em;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    width: ;
+    background-color: rgb(41, 40, 40);
+    text-align: center;
+    padding: 2.5em 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.mapouter{
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
